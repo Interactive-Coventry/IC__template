@@ -1,6 +1,9 @@
-PyYAML==5.3.1
---extra-index-url https://download.pytorch.org/whl/cu117
-torch==1.13.1+cu117
-torchvision==0.14.1+cu117
-torchmetrics==0.10.3
-tensorflow-gpu==2.10.1
+#--extra-index-url https://download.pytorch.org/whl/cu117
+#torch==1.13.1+cu117
+#torchvision==0.14.1+cu117
+#torchmetrics==0.10.3
+#tensorflow-gpu==2.10.1
+
+# Custom libs
+libs @ git+https://github.com/foxelas/libs@v1
+EMIA__utils @ git+https://github.com/Interactive-Coventry/EMIA__utils@v1

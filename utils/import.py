@@ -1,3 +1,1 @@
-import sys
-import libs.anomalib as anomalib
-sys.modules['anomalib'] = anomalib
+from libs.foxutils.utils import core_utils
